@@ -6,11 +6,19 @@ body {
     background-repeat: repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
+.background {
+    position: fixed;
+    top: 0px;
+    z-index:1;
+    float: left;
+}
 
 #head {
     position: fixed;
     top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/fabric.png");
+    z-index:100;
 }
 
 #headshot {
@@ -39,20 +47,22 @@ body {
 #title {
     clear: both;
     color: #4aaaa5;
+    margin-top: 75px;
 }
 
 #linknav {
     margin-top: 13px;
-    position: fixed;
+    position: absolute;
     right: 50px;
     float: right;
-
+    z-index:400;
 }
 .divider {
     width: 960px;
     height: 2px;
     background-color: black;
     margin-top: 70px;
+    clear: both;
 
 }
 
@@ -71,6 +81,17 @@ footer {
     padding-top: 10px;
 }
 
+.stockimg {
+    margin: 40px;
 
+}
 
+#text {
+    margin-bottom: 10px;
 
+}
+
+#button {
+    margin-bottom: 42px;
+    
+}
