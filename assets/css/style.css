@@ -82,7 +82,7 @@ footer {
 }
 
 .stockimg {
-    margin: 40px;
+    float:left;
 
 }
 
@@ -94,4 +94,37 @@ footer {
 #button {
     margin-bottom: 42px;
     
+}
+
+.caption {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    float: left;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 100px;
+    left: 
+}
+
+.photocontainer {
+    margin: 40px;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+#paragraph {
+    float:left;
+    width:650px;
+    position: relative;
+    top: -16px;
 }
