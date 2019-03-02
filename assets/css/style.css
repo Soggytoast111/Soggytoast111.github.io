@@ -128,3 +128,411 @@ footer {
     position: relative;
     top: -16px;
 }
+
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 960px;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-image: url("../images/fabric.png");
+        background-repeat: repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .background {
+        position: fixed;
+        top: 0px;
+        z-index:1;
+        float: left;
+    }
+
+    #head {
+        position: fixed;
+        top: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url("../images/fabric.png");
+        z-index:100;
+    }
+
+    #headshot {
+        float: left;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+    }
+    #namehead {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #title {
+        clear: both;
+        color: #4aaaa5;
+        margin-top: 75px;
+    }
+
+    #linknav {
+        margin-top: 13px;
+        position: absolute;
+        right: 250px;
+        float: right;
+        z-index:400;
+    }
+    .divider {
+        width: 960px;
+        height: 2px;
+        background-color: black;
+        margin-top: 70px;
+        clear: both;
+
+    }
+
+    footer {
+        background-color: #666666;
+        border-width: 4px 0px 0px 0px;
+        border-color: #4aaaa5;
+        border-style: solid;
+        position: fixed;
+        bottom: 0px;
+        left: 10%;
+        text-align: center;
+        width: 960px;
+        height: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .stockimg {
+        float:left;
+
+    }
+
+    #text {
+        margin-bottom: 10px;
+
+    }
+
+    #button {
+        margin-bottom: 42px;
+        
+    }
+
+    .caption {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        bottom: 100px;
+        left: 
+    }
+
+    .photocontainer {
+        margin: 40px;
+        width: 250px;
+        height: 250px;
+        float: left;
+    }
+
+    #paragraph {
+        float:left;
+        width:650px;
+        position: relative;
+        top: -16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-image: url("../images/fabric.png");
+        background-repeat: repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .background {
+        position: fixed;
+        top: 0px;
+        z-index:1;
+        float: left;
+    }
+
+    #head {
+        position: fixed;
+        top: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url("../images/fabric.png");
+        z-index:100;
+    }
+
+    #headshot {
+        float: left;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+    }
+    #namehead {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #title {
+        clear: both;
+        color: #4aaaa5;
+        margin-top: 75px;
+    }
+
+    #linknav {
+        margin-top: 13px;
+        position: absolute;
+        right: 350px;
+        float: right;
+        z-index:400;
+    }
+    .divider {
+        width: 960px;
+        height: 2px;
+        background-color: black;
+        margin-top: 70px;
+        clear: both;
+
+    }
+
+    footer {
+        background-color: #666666;
+        border-width: 4px 0px 0px 0px;
+        border-color: #4aaaa5;
+        border-style: solid;
+        position: fixed;
+        bottom: 0px;
+        left: 5%;
+        text-align: center;
+        width: 768px;
+        height: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .stockimg {
+        float:left;
+
+    }
+
+    #text {
+        margin-bottom: 10px;
+
+    }
+
+    #button {
+        margin-bottom: 42px;
+        
+    }
+
+    .caption {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        bottom: 100px;
+        left: 
+    }
+
+    .photocontainer {
+        margin: 40px;
+        width: 250px;
+        height: 250px;
+        float: left;
+    }
+
+    #paragraph {
+        float:left;
+        width:650px;
+        position: relative;
+        top: -16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 640px;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-image: url("../images/fabric.png");
+        background-repeat: repeat;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .background {
+        position: fixed;
+        top: 0px;
+        z-index:1;
+        float: left;
+    }
+
+    #head {
+        position: fixed;
+        top: 0px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url("../images/fabric.png");
+        z-index:100;
+    }
+
+    #headshot {
+        float: left;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    #namehead {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        margin-left: 140px;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #title {
+        clear: both;
+        color: #4aaaa5;
+        margin-top: 75px;
+        margin-left: 50px;
+    }
+
+    #linknav {
+        z-index:400;
+        position: absolute;
+        top: 40px;
+        left: 158px;
+        font-size: 10px;
+        clear:both;
+        float:right;
+    }
+    .divider {
+        width: 960px;
+        height: 2px;
+        background-color: black;
+        margin-top: 70px;
+        clear: both;
+
+    }
+
+    footer {
+        background-color: #666666;
+        border-width: 4px 0px 0px 0px;
+        border-color: #4aaaa5;
+        border-style: solid;
+        position: fixed;
+        bottom: 0px;
+        left: 5%;
+        text-align: left;
+        width: 640px;
+        height: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 110px;
+    }
+
+    .stockimg {
+        float:left;
+
+    }
+
+    #text {
+        margin-bottom: 10px;
+
+    }
+
+    #button {
+        margin-bottom: 42px;
+        
+    }
+
+    .caption {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        border-style: solid;
+        border-color: black;
+        border-width: 0px;
+        float: left;
+        width: 250px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        bottom: 100px;
+        left: 
+    }
+
+    .photocontainer {
+        margin: 40px;
+        width: 250px;
+        height: 250px;
+        float: left;
+    }
+
+    #paragraph {
+        float:left;
+        width:400px;
+        position: relative;
+        top: -16px;
+        left: 50px;
+    }
+}
