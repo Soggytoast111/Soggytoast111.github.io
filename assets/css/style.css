@@ -83,7 +83,10 @@ footer {
 
 .stockimg {
     float:left;
-
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
 }
 
 #text {
@@ -112,7 +115,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     bottom: 100px;
-    left: 
+    left: 3px;
 }
 
 .photocontainer {
@@ -120,6 +123,7 @@ footer {
     width: 250px;
     height: 250px;
     float: left;
+    border-radius: 25px;
 }
 
 #paragraph {
@@ -216,7 +220,10 @@ footer {
 
     .stockimg {
         float:left;
-
+        border-radius: 25px;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
 
     #text {
@@ -253,6 +260,7 @@ footer {
         width: 250px;
         height: 250px;
         float: left;
+        border-radius: 25px;
     }
 
     #paragraph {
@@ -349,7 +357,10 @@ footer {
 
     .stockimg {
         float:left;
-
+        border-radius: 25px;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
 
     #text {
@@ -386,6 +397,7 @@ footer {
         width: 250px;
         height: 250px;
         float: left;
+        border-radius: 25px;
     }
 
     #paragraph {
@@ -450,7 +462,7 @@ footer {
         clear: both;
         color: #4aaaa5;
         margin-top: 75px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     #linknav {
@@ -489,7 +501,10 @@ footer {
 
     .stockimg {
         float:left;
-
+        border-radius: 25px;
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
     }
 
     #text {
@@ -526,6 +541,7 @@ footer {
         width: 250px;
         height: 250px;
         float: left;
+        border-radius: 25px;
     }
 
     #paragraph {
