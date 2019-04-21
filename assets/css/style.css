@@ -552,5 +552,7 @@ footer {
         position: relative;
         top: -16px;
         left: 50px;
+        margin-left: -30px;
+        clear: both;
     }
 }
