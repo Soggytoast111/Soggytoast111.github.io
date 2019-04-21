@@ -404,7 +404,7 @@ footer {
         float:left;
         width:650px;
         position: relative;
-        top: -16px;
+        padding-top: 30px;
     }
 }
 
@@ -440,6 +440,8 @@ footer {
         border-color: black;
         margin-bottom: 30px;
         margin-left: 50px;
+        height: 204px;
+        width:  227px;
     }
     #namehead {
         background-color: #4aaaa5;
@@ -546,7 +548,7 @@ footer {
 
     #paragraph {
         float:left;
-        width:400px;
+        width:350px;
         position: relative;
         top: -16px;
         left: 50px;
