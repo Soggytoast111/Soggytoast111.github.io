@@ -76,7 +76,7 @@ footer {
     left: 10%;
     text-align: center;
     width: 960px;
-    height: 15px;
+    height: 40px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -213,7 +213,7 @@ footer {
         left: 10%;
         text-align: center;
         width: 960px;
-        height: 15px;
+        height: 40px;
         padding-bottom: 10px;
         padding-top: 10px;
     }
@@ -350,7 +350,7 @@ footer {
         left: 5%;
         text-align: center;
         width: 768px;
-        height: 15px;
+        height: 40px;
         padding-bottom: 10px;
         padding-top: 10px;
     }
@@ -493,7 +493,7 @@ footer {
         left: 5%;
         text-align: left;
         width: 640px;
-        height: 15px;
+        height: 40px;
         padding-bottom: 10px;
         padding-top: 10px;
         padding-left: 110px;
