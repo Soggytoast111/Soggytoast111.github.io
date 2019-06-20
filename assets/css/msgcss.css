@@ -1,0 +1,137 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  word-break: break-all;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 2rem auto;
+}
+
+.type-message form { position: relative; }
+
+.box-shadow { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16); }
+
+textarea,
+input,
+button {
+  /* resets default browser settings */
+  border: 0;
+  background: none;
+  padding: 0;
+  /* set new colours and font to form elements */
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  width: calc(100% - 11rem);
+}
+
+textarea { min-height: 4rem; }
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 4rem;
+  width: auto;
+}
+
+.inline-block { display: inline-block; }
+
+.position-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+textarea::placeholder,
+input::placeholder { color: teal; }
+
+.maastricht-blue { background: #031926; }
+.teal-blue { background: #4aaaa5; }
+.green-sheen { background: #77ACA2; }
+.cambridge-blue { background: #9DBEBB; }
+
+.p-1 { padding: 1rem; }
+.p-05 { padding: .5rem; }
+
+article:not(:first-of-type) { margin-top: 3.5rem; }
+article:last-of-type { margin-bottom: 3rem; }
+
+.float-right {
+  /* to move the area below the box-shadow */
+  position: relative;
+  z-index: -1;
+  /* to align the meta data to the right */
+  float: right;
+  margin-top: 0.15rem;
+}
+
+p,
+span,
+textarea,
+input {
+  font-weight: 300;
+  margin: 0;
+}
+
+.small { font-size: 0.75rem; }
+
+h1,
+button { font-weight: 400; }
+
+.error-message {
+  /* hide error message at load */
+  display: none;
+
+  position: relative;
+  margin-top: 0.4rem;
+  background: #F4E9CD;
+  color: #031926;
+  padding: 0.4rem;
+  font-size: 0.85rem;
+
+  transition: display 0.2s linear;
+}
+
+.error-message .close {
+  font-size: 1.25rem;
+  margin-right: 0.4rem;
+  cursor: pointer;
+}
+
+.error-message.show {
+  /* show error message */
+  display: block;
+  transition: display 0.2s linear;
+}
+
+#message {
+    border-width: 1px;
+    border-style: solid;
+    border-color: teal;
+}
+
+@media all and (max-width: 960px) {
+  .container {
+    margin: 0;
+    padding: 1rem;
+    width: auto;
+  }
+  h1 { margin-top: 0; }
+}
+
+/* Small screen changes */
+
+@media all and (max-width: 567px) {
+  .position-right { position: relative; }
+  textarea,
+  input,
+  button { width: 100%; }
+  .inline-block { display: block; }
+  button { padding: 1rem; }
+}
