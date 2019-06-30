@@ -1,5 +1,5 @@
 body {
-    width: 960px;
+    width: 1100px;
     margin-left: 10%;
     margin-right: 10%;
     background-image: url("../images/fabric.png");
@@ -131,6 +131,10 @@ footer {
     width:650px;
     position: relative;
     top: -16px;
+}
+
+.smallCap {
+    font-size: 17px;
 }
 
 
@@ -533,8 +537,7 @@ footer {
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         position: relative;
-        bottom: 100px;
-        left: 
+        bottom: 100px; 
     }
 
     .photocontainer {
